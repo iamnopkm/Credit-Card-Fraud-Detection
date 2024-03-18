@@ -45,6 +45,191 @@ understandable fraud detection process in credit card transactions.
 </ul>
 
 ## Model Building and Evaluation
+<p>Experimental protocols</p>
+
+![image](https://github.com/iamnopkm/Credit-Card-Fraud-Detection/blob/main/PaperResources/protocol.png)
+
+<table>
+    <tr>
+        <th>Algorithm</th>
+        <th>Description</th>
+        <th>Reason for choosing</th>
+    </tr>
+    <tr>
+        <th>Logistic Regression</th>
+        <td style="text-align: center;">Logistic regression is used for
+classification and predictive analytics.
+Logistic regression predicts a dependent
+data variable by analyzing the
+relationship between one or more
+existing given dataset of independent
+variables. And the outcome is predicted
+as binary outcome</td>
+        <td style="text-align: center;">Logistic Regression provides
+probabilistic outputs, enabling a
+nuanced understanding of
+prediction confidence, and is
+particularly effective when dealing
+with linearly separable data. It
+serves as an efficient baseline
+model, offering insights into feature
+importance and being easily
+interpretable, making it an excellent
+option for scenarios where a clear
+understanding of predictive factors
+is crucial.
+</td>
+    </tr>
+    <tr>
+        <th>P-values</th>
+        <td style="text-align: center;">P - value is calculated to validate a
+hypothesis on a dataset.In this study,
+p-value is used to determine whether a
+dataset feature has a significant impact
+on the output value. The lower p-value is,
+the more significant the features could be
+(Gelman, 2013)
+<br>● p > 0.10 → “not significant”
+<br>● p ≤ 0.10 → “marginally
+significant”
+<br>● p ≤ 0.05 → “significant”
+<br>● p ≤ 0.01 → “highly significant”
+</td>
+        <td style="text-align: center;">P - values play a pivotal role in
+statistical hypothesis testing,
+quantifying evidence against a null
+hypothesis and aiding
+decision-making. They indicate
+whether observed results are likely
+due to chance, ensuring statistical
+significance in research findings.
+P-values contribute to the
+replicability of studies, offer a standardized communication
+method for evidence strength, and
+help control Type I error rates.
+Caution in interpretation and
+consideration alongside effect sizes
+enhance the reliability of research
+conclusions.
+</td>
+    </tr>
+  <tr>
+    <th>SMOTE</th>
+    <td style="text-align: center;">SMOTE is used for synthetic minority
+oversampling in machine learning. It
+generates synthetic samples to balance
+imbalanced datasets, specifically
+targeting the minority class.
+SMOTE should be used when dealing
+with imbalanced datasets to improve the
+performance of machine learning models
+on minority class predictions.
+</td>
+    <td style="text-align: center;">SMOTE prevents biases towards
+the majority class, enhances model
+performance on the minority class,
+and is applicable across various
+machine learning algorithms. It is
+particularly valuable in domains
+with imbalanced classes, such as
+fraud detection or rare event
+prediction, ensuring robust model
+performance and effective handling
+of critical instances.</td>
+  </tr>
+  <tr>
+    <th>Decision Tree</th>
+    <td style="text-align: center;">A decision tree is a machine learning
+algorithm that uses a tree-like model for
+decision-making. It recursively splits data
+based on optimal conditions, leading to
+simple and interpretable outcomes.
+Despite their interpretability, decision
+trees can be prone to overfitting
+mitigated through techniques like
+pruning.
+</td>
+    <td style="text-align: center;">Decision trees are prized for their
+simplicity, interpretability, and
+adaptability. They efficiently handle
+diverse datasets, both numerical and
+categorical, without intricate
+preprocessing. Their visual clarity
+aids in easy comprehension and
+explanation, making them ideal for
+transparent decision-making.
+Notably versatile, decision trees
+excel in capturing complex patterns
+and are foundational in ensemble
+methods like Random Forests,
+ensuring robust performance across various tasks.</td>
+  </tr>
+  <tr>
+    <th>Random Forest</th>
+    <td style="text-align: center;">Random forest is the use of multiple
+classifier models for classifying the same
+data set, all the outcomes are combined
+to generate a single result. By following
+the large number principle, a random
+forest classifier is considered to reduce
+the error and give better performance,
+compared to a single classifier.</td>
+    <td style="text-align: center;">Random Forests stand out for their
+accuracy and adaptability in
+machine learning. By combining
+multiple decision trees, they deliver
+robust predictions, handling outliers
+and diverse data effortlessly.
+Versatile across classification and
+regression tasks, Random Forests
+provide reliable results with
+automatic feature importance
+assessment. Their reduced
+overfitting, efficient handling of
+missing data, and ease of use make
+them a powerful and accessible
+ensemble learning technique for a
+wide range of applications.</td>
+  </tr>
+  <tr>
+    <th>Area Under The Curve (AUC)</th>
+    <td style="text-align: center;">Area under the curve or area under the
+receiver operating characteristics is an
+evaluation metric used for measuring a
+classification model performance. The
+curve is plotted by the true positive rate
+as y-axis and the false positive rate as x
+axis. The higher AUC, the better the
+model.
+</td>
+    <td style="text-align: center;">AUC is a key metric in machine learning, offering a holistic assessment of a model's discriminative performance across various thresholds. Its threshold independence, insensitivity to class imbalance, and applicability to diverse scenarios make it invaluable. A higher AUC signifies superior performance, aiding in straightforward model comparison. With resilience to noise and suitability for both binary and multiclass scenarios, AUC provides a concise and effective measure for evaluating model performance.</td>
+  </tr>
+  <tr>
+    <th>Confusion Matrix</th>
+    <td style="text-align: center;">A confusion matrix represents the
+prediction summary in matrix form. It
+shows how many predictions are correct
+and incorrect per class. It helps in
+understanding the classes that are being
+confused by models as other classes.
+</td>
+    <td style="text-align: center;">Confusion matrices are crucial in
+machine learning for a detailed
+performance breakdown,
+facilitating the calculation of key
+metrics like precision and recall.
+They aid in threshold adjustment,
+making informed decisions about
+model tuning, and are essential for
+handling class imbalances. With a
+clear visual representation,
+confusion matrices serve as a
+fundamental tool for evaluating and
+optimizing machine learning
+models.
+</td>
+</table>
+
 
 
 

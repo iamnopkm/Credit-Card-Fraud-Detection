@@ -254,6 +254,21 @@ models.
 | AUC Score          | 0.8749              | 0.9901        | 0.89995       |
 | Running Time (mins)| 0.92                | 22.05         | 1.15          |
 
+## Authors
+I'm Hồ Quang Anh aka iamnopkm this brief introduc abou this project was make by me but the process of getting this result is made buy us the contributors:
+
+Name                 |    School ID    |       
+-------------------- |-----------------|
+Hồ Quang Anh         | BI12-017 | 
+Trần Đức Anh         | BI12-018 | 
+Lê Ngọc Phan Anh     | BI12-010 | 
+Trần Ngọc Ánh        | BI12-040 | 
+Hoàng Minh Đức       | BI12-093 |
+Lê Nhật Minh         | BI12-289 |
+Nguyễn Hoàng Nam     | BI12-308 |
+
+
+
 
 
 

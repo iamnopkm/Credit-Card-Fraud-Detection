@@ -230,6 +230,31 @@ models.
 </td>
 </table>
 
+## Final Result
+<p align='center'>Evaluation metrics before applying SMOTE</p>
+
+|                    | Logistic Regression | Random Forest | Decision Tree |
+|--------------------|---------------------|---------------|---------------|
+| Recall Score       | 0.1916              | 0.6988        | 0.77948       |
+| Precision          | 0.8253              | 0.972         | 0.72632       |
+| F1-Score           | 0.311               | 0.813         | 0.75196       |
+| Accuracy Score     | 0.9967              | 0.998         | 0.99801       |
+| AUC Score          | 0.8631              | 0.978         | 0.89917       |
+| Running Time (mins)| 0.19                | 5.5           | 0.23          |
+                  
+<hr>
+<p align='center'>Evaluation metrics after applying SMOTE</p>
+
+|                    | Logistic Regression | Random Forest | Decision Tree |
+|--------------------|---------------------|---------------|---------------|
+| Recall Score       | 0.7557              | 0.7678        | 0.80986       |
+| Precision          | 0.0259              | 0.8912        | 0.61275       |
+| F1-Score           | 0.0501              | 0.8249        | 0.69466       |
+| Accuracy Score     | 0.8094              | 0.9987        | 0.99727       |
+| AUC Score          | 0.8749              | 0.9901        | 0.89995       |
+| Running Time (mins)| 0.92                | 22.05         | 1.15          |
+
+
 
 
 

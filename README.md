@@ -45,10 +45,17 @@ understandable fraud detection process in credit card transactions.
 </ul>
 
 ## Model Building and Evaluation
+<hr>
 <p>Experimental protocols</p>
 
 ![image](https://github.com/iamnopkm/Credit-Card-Fraud-Detection/blob/main/PaperResources/protocol.png)
 
+<hr>
+<p>A conceptual model for the prediction of potential fraud transactions</p>
+
+![image](https://github.com/iamnopkm/Credit-Card-Fraud-Detection/blob/main/PaperResources/conceptual_model_for_prediction.png)
+
+<hr>
 <table>
     <tr>
         <th>Algorithm</th>

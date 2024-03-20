@@ -262,7 +262,7 @@ models.
 | Running Time (mins)| 0.92                | 22.05         | 1.15          |
 
 ## Authors
-I'm Hồ Quang Anh aka iamnopkm this brief introduc abou this project was make by me but the process of getting this result is made buy us the contributors:
+I'm Hồ Quang Anh aka iamnopkm this brief description about this project was make by me but the process of getting this result is made buy us the contributors:
 
 Name                 |    School ID    |       
 -------------------- |-----------------|
